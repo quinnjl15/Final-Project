@@ -1,1 +1,43 @@
-index.css
+#featured-image {
+	clear: left;
+	width: 80%;
+	height:400px;
+	background-image: url("images/Mohawk Lake.jpg");
+	background-repeat: no-repeat;
+}
+
+.page-scroller {
+	float: right;
+	width: 2%;
+	height: 10px;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+.footer-nav{
+	display: -webkit-flex;
+  	display: flex;
+	width: 4%;
+	height: 15px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.header-nav{
+	float: left;
+	width: 10%;
+	height: 20px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.blog-box{
+	width: 20%;
+	height: 105px;
+	margin: 25px;
+	padding: 25px;
+	border: 1px solid black;
+}
