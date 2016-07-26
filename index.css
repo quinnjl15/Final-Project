@@ -1,43 +1,148 @@
+html{
+	font-size: 62.5%
+}
+
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 1em;
+}
+
+a {
+	color: red;
+}
+
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 4em;
+	margin-bottom: 0em;
+	margin-top: 0em;
+}
+
+header {
+	background-color: #000000
+}
+
+content {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+h3, h4, p{
+	margin-left: 1em;
+	text-align: left;
+}
+
+ul{
+	margin-bottom: 0em;
+	margin-top: 1em;s
+}
+
 #featured-image {
-	clear: left;
-	width: 80%;
-	height:400px;
-	background-image: url("images/Mohawk Lake.jpg");
+	width:100%;
+	height:60em;
+	background-image: url("images/Colorado.jpg");
 	background-repeat: no-repeat;
+	border-left: .5em solid white;
+	border-right: .5em solid white;
+	border-bottom: .5em solid white;
 }
 
 .page-scroller {
-	float: right;
 	width: 2%;
-	height: 10px;
-	margin: 5px;
-	padding: 5px;
-	border: 1px solid black;
+	height: 1.5em;
+	margin: 1em;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	background: #000000;
+	color: red;
 }
 
 .footer-nav{
-	display: -webkit-flex;
-  	display: flex;
-	width: 4%;
-	height: 15px;
-	margin: 10px;
-	padding: 10px;
-	border: 1px solid black;
+	display: inline-block;
+	vertical-align: top;
+	width: 17%;
+	height: 2.5em;
+	margin-bottom: 0em;
+	text-align: center;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 2.2em;
+	font-weight: bold;
 }
 
 .header-nav{
-	float: left;
-	width: 10%;
-	height: 20px;
-	margin: 10px;
-	padding: 10px;
-	border: 1px solid black;
+	display: inline-block;
+	vertical-align: top;
+	width: 15%;
+	height: 2.2em;
+	text-align: center;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 2.2em;
+	font-weight: bold;
+	margin-bottom: 0em;
+}
+
+.header-nav a {
+	text-decoration: none;
 }
 
 .blog-box{
-	width: 20%;
-	height: 105px;
-	margin: 25px;
-	padding: 25px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 1px solid white;
+}
+
+.blog-box img {
+	left-margin: 25px;
+	right-margin: 25px;
+}
+
+.title-box{
+	float: left;
+	width: 100%;
+	height: 25px;
+	margin-bottom: 10px;
+	padding: 30px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: bold;
 	border: 1px solid black;
+}
+
+.social-buttons{
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	background-color: #000000;
+	width: 100%;
+	border-bottom: 1em solid black;
+}
+
+#form-input {
+	margin-left: 25px;
+	margin-right: 35px;
+	padding: 10px; 
+	width: 25%;
+	height: 40px;
+	text-align: left;
+}
+
+#button {
+	width: 15%;
+	height: 3em;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+	font-size: 2.2em;
 }
