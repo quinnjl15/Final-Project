@@ -366,12 +366,3 @@ have a fixed width and height (but it's not required).
   and (-webkit-min-device-pixel-ratio: 2) {
 
 }
-
-.blog-box{
-	max-width: 41em;
-	margin-top: 2.5em;
-	margin-right: 1em;
-	margin-left: 1em;
-	text-align: center;
-	border: .1em solid white;
-}
