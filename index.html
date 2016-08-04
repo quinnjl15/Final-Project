@@ -5,10 +5,13 @@
 	<title>Document</title>
 	<meta name="viewport" content="">
 	<link rel="stylesheet" type="text/css" href="normalize.css">
-	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<div id="wrapper">
+		<div id="container">
 		<header>
 			<h1>Catching the Travel Bug</h1>
 			<nav>
@@ -37,91 +40,120 @@
 				<a href="https://www.pinterest.com/quinnjl15/"><img src="images/pinterest.png" width="35px" height="35px"></a>
 			</div>
 		</header>
-		<div id="featured-image"></div>
+		<div class="jcarousel-wrapper">
+			<div class="jcarousel" data-jcarousel="true">
+				<ul>
+					<li><img src="images/colorado.jpg" width="1000" height="450px"></li>
+					<li><img src="images/Vinales.jpg" width="1000" height="450px"></li>
+					<li><img src="images/Barcelona.jpg" width="1000" height="450px"></li>
+					<li><img src="images/CostaRicaHeader.jpg" width="1000" height="450px"></li>
+				</ul>
+			</div>
+		</div>
+		<a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><img src="images/left-arrow.png"></a>
+		<a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><img src="images/right-arrow.png"></a>
 		<content>
-			<div class="blog-box"><img src="images/Strawberry Park Hot Springs.jpg" width="410px" height="280px">
-				<h3>Blog Category</h3>
-				<h4>Blog Title</h4>
-				<p>Blog Description</p>
+			<div class="blog-box"><a href="index2.html"><img src="images/Strawberry Park Hot Springs.jpg" width="410px" height="280px">
+				<h4>Colorado Travel</h4>
+				<h3>Escaping to Colorado</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p></a>
 			</div>
 			<div class="blog-box"><img src="images/Mountains.jpg" width="410px" height="280px">
 				<h3>Blog Category</h3>
 				<h4>Blog Title</h4>
-				<p>Blog Description</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
 			</div>
 			<div class="blog-box"><img src="images/BlueLakeBasin.jpg" width="410px" height="280px">
 					<h3>Blog Category</h3>
 					<h4>Blog Title</h4>
-					<p>Blog Description</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
 			</div>
 			<div class="blog-box"><img src="images/DenverSkyline.jpg" width="410px" height="280px">
 				<h3>Blog Category</h3>
 				<h4>Blog Title</h4>
-				<p>Blog Description</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
 			</div>
-			<div class="blog-box"><img src="images/Strawberry Park Hot Springs.jpg" width="410px" height="280px">
+			<div class="blog-box"><img src="images/Seattle.jpg" width="410px" height="280px">
 				<h3>Blog Category</h3>
 				<h4>Blog Title</h4>
-				<p>Blog Description</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
 			</div>
-			<div class="blog-box"><img src="images/Strawberry Park Hot Springs.jpg" width="410px" height="280px">
+			<div class="blog-box"><img src="images/Amsterdam.jpg" width="410px" height="280px">
 				<h3>Blog Category</h3>
 				<h4>Blog Title</h4>
-				<p>Blog Description</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
 			</div>
-			<div class="blog-box"><img src="images/Strawberry Park Hot Springs.jpg" width="410px" height="280px">
+			<div class="blog-box"><img src="images/Portland.jpg" width="410px" height="280px">
 				<h3>Blog Category</h3>
 				<h4>Blog Title</h4>
-				<p>Blog Description</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
 			</div>
-			<div class="blog-box"><img src="images/Strawberry Park Hot Springs.jpg" width="410px" height="280px">
+			<div class="blog-box"><img src="images/Paris.jpg" width="410px" height="280px">
 				<h3>Blog Category</h3>
 				<h4>Blog Title</h4>
-				<p>Blog Description</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
 			</div>
-			<div class="blog-box"><img src="images/Strawberry Park Hot Springs.jpg" width="410px" height="280px">
+			<div class="blog-box"><img src="images/Costa Rica.jpg" width="410px" height="280px">
 				<h3>Blog Category</h3>
 				<h4>Blog Title</h4>
-				<p>Blog Description</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
 			</div>
-			<div class="page-scroller">1</div>
-			<div class="page-scroller">2</div>
-			<div class="page-scroller">3</div>
-			<div class="page-scroller">4</div>
-			<div class="page-scroller">5</div>
+			<div id="page-numbers">
+				<div class="page-scroller">1</div>
+				<div class="page-scroller">2</div>
+				<div class="page-scroller">3</div>
+				<div class="page-scroller">4</div>
+				<div class="page-scroller">5</div>
+			</div>
+
 			<div class="title-box">
 				Follow Me on Instagram
 			</div>
-				<iframe src='https://www.juicer.io/api/feeds/jessica-s-travel/iframe' frameborder='0' width='100%' height='500'></iframe>
+				<iframe src='https://www.juicer.io/api/feeds/jessica-s-travel/iframe' frameborder='0' width='1200' height='1000'></iframe>
 			<div class="title-box">
 				Email List and Newsletter
 			</div>
-				<form>
-					<input id="form-input" type="sign-up" name="email signup">
-					<button id="button">Sign-up</button>
+			<div id="form-div">
+				<form class="form-input">
+					<p>
+						<label>Email:</label>
+							<input type="text" name="email" placeholder="Your Email Address">
+					</p>
+					<p>
+						<label>First Name:</label>
+							<input type="text" name="firstname" placeholder="Your First Name">
+					</p>
+					<p>
+						<label>Last Name:</label>
+							<input type="text" name="lastname" placeholder="Your Last Name">
+					</p>
 				</form>
+			</div>
+			<button id="button">Sign-up</button>
 		</content>
-		<footer>
-			<div id="footer-top"></div>
-				<div id=footer-bottom>
-					<ul>
-						<li class="footer-nav">
-							<a href="#">Home</a>
-						</li>
-						<li class="footer-nav">
-							<a href="#">Colorado Travel</a>
-						</li>
-						<li class="footer-nav">
-							<a href="#">US Travel</a>
-						</li>
-						<li class="footer-nav">
-							<a href="#">World-Wide</a>
-						</li>
-						<li class="footer-nav">
-							<a href="#">Instagram</a>
-						</li>
-					</ul>
-				</div>
-			</footer>
+				<footer>
+			<div class="footer">
+				<ul>
+					<li class="footer-nav">
+						<a href="#">Home</a>
+					</li>
+					<li class="footer-nav">
+						<a href="#">Colorado Travel</a>
+					</li>
+					<li class="footer-nav">
+						<a href="#">US Travel</a>
+					</li>
+					<li class="footer-nav">
+						<a href="#">World-Wide</a>
+					</li>
+					<li class="footer-nav">
+						<a href="#">Instagram</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+			<script src="jquery.jcarousel.min.js"></script>
+			<script type="text/javascript" src="jcarousel.js"></script>
 </body>
 </html>
