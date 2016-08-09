@@ -6,7 +6,7 @@ html{
 
 body {
 	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 a {
@@ -17,9 +17,9 @@ h1 {
 	text-align: center;
 	color: #FFFFFF;
 	font-weight: bold;
-	font-size: 4em;
-	margin-bottom: 0em;
-	margin-top: 0em;
+	font-size: 4rem;
+	margin-bottom: 0rem;
+	margin-top: 0rem;
 }
 
 header {
@@ -34,27 +34,27 @@ content {
 
 h3 {
 	text-align: left;
-	font-size: 2.5em;
-	margin: 0em;
+	font-size: 2.5rem;
+	margin: 0;
 }
 
 h4 {
 	text-align: left;
-	font-size: 1.75em;
-	margin: .2em;
+	font-size: 1.75rem;
+	margin: .2rem;
 }
 
 p {
 	text-align: left;
-	font-size: 1.5em;
-	margin: .2em;
+	font-size: 1.5rem;
+	margin: .2rem;
 	display: inline-block;
 	vertical-align: top;
 }
 
 ul{
-	margin-top: 1em;
-	padding-left: 0em;
+	margin-top: 1rem;
+	padding-left: 0rem;
 }
 
 nav {
@@ -62,8 +62,8 @@ nav {
 }
 
 #wrapper {
-	border-right: .1em solid #e5e5e5;
-	border-left: .1em solid #e5e5e5;
+	border-right: .1rem solid #e5e5e5;
+	border-left: .1rem solid #e5e5e5;
 	width: 85%;
 	margin: 0 auto;
 	overflow: hidden;
@@ -77,10 +77,10 @@ nav {
 
 .jcarousel-wrapper {
 	display: block;
-	margin: 2em auto;
+	margin: 2rem auto;
     position: relative;
-    border: 1em solid #fff;
-    width: 100em;
+    border: 1rem solid #fff;
+    width: 100rem;
 }
 
 /*
@@ -97,16 +97,16 @@ Position must be relative!
 }
 
 .jcarousel-control-next { 
-	right: 0em; 
+	right: 0rem; 
 }
 
 .jcarousel-control-prev { 
-	left: 0em; 
+	left: 0rem; 
 }
 
 .jcarousel-control-prev, .jcarousel-control-next {
 	position: absolute;
-	bottom: 17em;
+	bottom: 16rem;
     text-align: center;
 }
 
@@ -116,7 +116,7 @@ You must ensure that the position is relative or absolute and
 that the width is big enough to contain all items.
 */
 .jcarousel ul {
-    width: 20000em;
+    width: 20000rem;
     position: relative;
     overflow: hidden;
 
@@ -128,7 +128,7 @@ that the width is big enough to contain all items.
 
 .jcarousel img{
 	width:100rem;
-	height: 46rem;
+	height: 49rem;
 }
 
 /*
@@ -149,22 +149,22 @@ have a fixed width and height (but it's not required).
 .navbar ul {
     list-style-type: none; /*to remove bullets*/
     text-align: center;
-    padding: 0em;
+    padding: 0rem;
     overflow: hidden;
 }
 .navbar li{
-    padding: .2em;
-    width: 15em;
+    padding: .2rem;
+    width: 15rem;
     display:inline-block;
 }
 
 .page-scroller {
 	display: inline-block;
 	vertical-align: top;
-	height: 2em;
-	width: 1.2em;
-	top-margin: .5em;
-	font-size: 1.5em;
+	height: 2rem;
+	width: 1.2rem;
+	top-margin: .5rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 	text-align: center;
 	background: #000000;
@@ -172,23 +172,23 @@ have a fixed width and height (but it's not required).
 }
 
 #page-numbers {
-	padding-bottom: 1em;
-	padding-right: 1em;
+	padding-bottom: 1.5rem;
+	padding-right: 1.5rem;
 	text-align: right;
-	margin-top: 1.2em;
+	margin-top: 1.2rem;
 }
 
 .header-nav{
 	display: inline-block;
 	vertical-align: top;
 	width: 18%;
-	height: 2.2em;
+	height: 2.2rem;
 	text-align: center;
 	background-color: #000000;
 	color: #FFFFFF;
-	font-size: 2.2em;
+	font-size: 2.2rem;
 	font-weight: bold;
-	margin-bottom: 0em;
+	margin-bottom: 0rem;
 }
 
 .header-nav a {
@@ -198,17 +198,17 @@ have a fixed width and height (but it's not required).
 .blog-box{
 	display: inline-block;
 	vertical-align: top;
-	max-width: 41em;
-	margin-top: 2.5em;
-	margin-right: 1em;
-	margin-left: 1em;
+	max-width: 41rem;
+	margin-top: 2.5rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
 	text-align: center;
-	border: .1em solid white;
+	border: .1rem solid white;
 }
 
 .blog-box img {
-	left-margin: 2.5em;
-	right-margin: 2.5em;
+	left-margin: 2.5rem;
+	right-margin: 2.5rem;
 }
 
 .blog-box a {
@@ -228,13 +228,13 @@ have a fixed width and height (but it's not required).
 }
 
 .title-box{
-	height: 2em;
+	height: 5rem;
 	text-align: left;
-	padding-left: .5em;
+	padding-left: .5rem;
 	background-color: #000000;
 	color: #FFFFFF;
 	font-family: 'Pacifico', cursive;
-	font-size: 2.5em;
+	font-size: 2.5rem;
 }
 
 .social-buttons{
@@ -243,22 +243,23 @@ have a fixed width and height (but it's not required).
 	text-align: center;
 	background-color: #000000;
 	width: 100%;
-	margin-right: 2em;
-	border-bottom: 1em solid black;
+	margin-top: 1rem;
+	margin-right: 2rem;
+	border-bottom: 1rem solid black;
 }
 
 .footer-nav{
 	display: inline-block;
 	vertical-align: top;
 	width: 15%;
-	height: 2.2em;
+	height: 2.2rem;
 	text-align: center;
 	background-color: #000000;
 	color: #FFFFFF;
 	text-decoration: none;
-	font-size: 2.2em;
+	font-size: 2.2rem;
 	font-weight: bold;
-	margin-bottom: 0em;
+	margin-bottom: 0rem;
 }
 
 .footer-nav a {
@@ -266,76 +267,77 @@ have a fixed width and height (but it's not required).
 }
 
 .footer-top {
-	height: 2em;
+	height: 5rem;
 	text-align: left;
 	background-color: #000000;
 }
 
 .footer {
 	display: block;
-	margin: 0;
-	padding: 0;
+	margin: .5rem;
+	padding: .5rem;
 	width: 100%;
 	background-color: black;
 	text-align: center;
 }
 
 #form-div{
-	padding-top: .5em;
-	text-align: left;
+	padding-top: .5rem;
+	text-align: center;
 	width: 100%;
 }
 
 .form-input {
-	font-size: 1.9em;
-	text-align: left;
+	font-size: 1.9rem;
+	text-align: center;
 }
 
 #button {
 	color: white;
-	width: 5em;
+	width: 10rem;
 	background-color: black;
 	font-weight: bold;
-	font-size: 1.9em;
+	font-size: 1.9rem;
 	text-align: center;
+	margin-top: 2rem;
 }
 
 /** Blog Post Styling **/
 
 .post-h1{
 	color: #000000;
-	font-size:3em;
+	font-size:3rem;
 	text-align: Left;
 }
 
 .category {
-	padding-top: 1em;
-	font-size: 1.9em;
+	padding-top: 1rem;
+	font-size: 1.9rem;
 	text-align: left;
 }
 
 .post {
-	margin-right: 2em;
-	margin-left: 2em;
+	margin-right: 2rem;
+	margin-left: 2rem;
 }
 
 .post-entry {
-	font-size: 1.3em;
+	font-size: 1.3rem;
 }
 
 .post-meta {
-	font-size: 1.2em;
-	margin-bottom: 1em;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
 	text-align: left;
 }
 
 .tag {
-	border: 1px solid grey;
+	border: .1rem solid grey;
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 1.1em;
+	margin-top: 1.1rem;
 	width: 15%;
-	height: 2.2em;
+	height: 2.2rem;
 	text-align: center;
 }
 
@@ -343,7 +345,7 @@ have a fixed width and height (but it's not required).
 	text-decoration: none;
 	color: grey;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 }
 
 .inline-img {
@@ -354,9 +356,9 @@ have a fixed width and height (but it's not required).
 }
 
 .post-author {
-	border-bottom: 1px solid #e5e5e5;
-    margin-bottom: 20px;
-    padding: 20px 20px 20px 20px;
+	border-bottom: .1rem solid #e5e5e5;
+    margin-bottom: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
     overflow: hidden;
 }
 
@@ -365,7 +367,7 @@ have a fixed width and height (but it's not required).
 }
 
 .author-info {
-	margin-left: 2em;
+	margin-left: 2rem;
 	text-align: left;
 }
 
@@ -388,7 +390,7 @@ have a fixed width and height (but it's not required).
   }
 
 	.jcarousel-control-next {
-		right: 1.2em;
+		right: 1.2rem;
 	}
 
 	.jcarousel-control-prev {
@@ -402,25 +404,25 @@ have a fixed width and height (but it's not required).
 	.blog-box{
 		display: inline-block;
 		vertical-align: top;
-		max-width: 46em;
-		margin-top: 2.5em;
-		margin-right: 1em;
-		margin-left: 1em;
+		max-width: 46rem;
+		margin-top: 2.5rem;
+		margin-right: 1rem;
+		margin-left: 1rem;
 		text-align: center;
-		border: .1em solid white;
+		border: .1rem solid white;
 	}
 
 	.blog-box img {
-		max-width: 86em;
-		left-margin: 0em;
-		right-margin: 0em;
+		max-width: 86rem;
+		left-margin: 0rem;
+		right-margin: 0rem;
 	}
 
 	.footer-nav{
-		font-size: 1.5em;
+		font-size: 1.5rem;
 	}
 
 	h1 {
-		font-size: 4.5em
+		font-size: 4.5rem
 	}
 }
