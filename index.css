@@ -62,22 +62,25 @@ nav {
 }
 
 #wrapper {
-	border-right: 1px solid #e5e5e5;
-	border-left: 1px solid #e5e5e5;
+	border-right: .1em solid #e5e5e5;
+	border-left: .1em solid #e5e5e5;
 	width: 85%;
 	margin: 0 auto;
 	overflow: hidden;
+}
+
+#container {
+	text-align: center;
 }
 
 /** Carousel CSS **/
 
 .jcarousel-wrapper {
 	display: block;
-	margin: 20px auto;
+	margin: 2em auto;
     position: relative;
-    border: 10px solid #fff;
-    width: 1000px;
-    height: 430px;
+    border: 1em solid #fff;
+    width: 100em;
 }
 
 /*
@@ -93,15 +96,17 @@ Position must be relative!
     width: 100%;
 }
 
-.jcarousel-control-next {
-	right: 220px;
+.jcarousel-control-next { 
+	right: 0em; 
+}
+
+.jcarousel-control-prev { 
+	left: 0em; 
 }
 
 .jcarousel-control-prev, .jcarousel-control-next {
 	position: absolute;
-	top: 360px;
-    width: 30px;
-    height: 30px;
+	bottom: 17em;
     text-align: center;
 }
 
@@ -119,6 +124,11 @@ that the width is big enough to contain all items.
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.jcarousel img{
+	width:100rem;
+	height: 46rem;
 }
 
 /*
@@ -151,8 +161,8 @@ have a fixed width and height (but it's not required).
 .page-scroller {
 	display: inline-block;
 	vertical-align: top;
-	width: 3%;
 	height: 2em;
+	width: 1.2em;
 	top-margin: .5em;
 	font-size: 1.5em;
 	font-weight: bold;
@@ -301,6 +311,7 @@ have a fixed width and height (but it's not required).
 .category {
 	padding-top: 1em;
 	font-size: 1.9em;
+	text-align: left;
 }
 
 .post {
@@ -315,6 +326,7 @@ have a fixed width and height (but it's not required).
 .post-meta {
 	font-size: 1.2em;
 	margin-bottom: 1em;
+	text-align: left;
 }
 
 .tag {
@@ -349,20 +361,66 @@ have a fixed width and height (but it's not required).
 }
 
 .author-image {
-	display: inline-block;
-	vertical-align: top;
+	text-align: left;
 }
 
 .author-info {
 	margin-left: 2em;
+	text-align: left;
 }
 
-/* ----------- iPhone 5 and 5S ----------- */
+@media (max-width: 768px) {
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  content {
+  	display: block;
+  	width: 100%;
+  }
 
+  #container {
+  	display: block;
+  	width: 100%;
+  }
+
+  #wrapper {
+  	display: block;
+  	margin: 0;
+  	width: auto;
+  }
+
+	.jcarousel-control-next {
+		right: 1.2em;
+	}
+
+	.jcarousel-control-prev {
+		left: 0;
+	}
+
+	.jcarousel-control-prev, .jcarousel-control-next {
+		position: absolute;
+	}
+
+	.blog-box{
+		display: inline-block;
+		vertical-align: top;
+		max-width: 46em;
+		margin-top: 2.5em;
+		margin-right: 1em;
+		margin-left: 1em;
+		text-align: center;
+		border: .1em solid white;
+	}
+
+	.blog-box img {
+		max-width: 86em;
+		left-margin: 0em;
+		right-margin: 0em;
+	}
+
+	.footer-nav{
+		font-size: 1.5em;
+	}
+
+	h1 {
+		font-size: 4.5em
+	}
 }
